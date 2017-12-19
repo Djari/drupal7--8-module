@@ -1,0 +1,13 @@
+name: YouTube Field
+type: module
+description: 'Youtube field module naar drupal 8'
+package: Field types
+dependencies:
+  - field
+  - image
+  - file
+configure: youtube.settings
+
+# Information added by Drupal.org packaging script on 2016-03-31
+core: '8.x'
+project: 'youtube'
